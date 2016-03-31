@@ -39,8 +39,10 @@ header a:hover{
   width: 290px;
   height:271px;
 }
-.thumbnail:hover{
+.row .thumbnail:hover{
   outline: 3px solid #F7610C;
+  border-radius: 0;
+  border: none;
 }
 .main .picture-1 .row-show1 h4{
   font-weight: bolder;
@@ -102,6 +104,17 @@ header a:hover{
 }
 .pagination{
   box-shadow: 2px 2px 2px 2px #ccc;
+}
+.top{
+  border: 1px solid #ccc;
+}
+.top .left{
+    margin: 20px;
+}
+.top .left img{
+  width: 400px;
+  height: 420px;
+
 }
 #footer{
   background-color: #bbb;
