@@ -76,8 +76,8 @@ header a:hover{
   display: block;
   text-align: center;
   width: 262.5px;
-  height: 30px;
-  line-height: 30px;
+  height: 35px;
+  line-height: 35px;
   text-decoration: none;
 } 
 .carousel-control.right,.carousel-control.left {
