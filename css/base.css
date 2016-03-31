@@ -1,5 +1,4 @@
 .block {display:block}
-
 header a{
   text-decoration: none;
   color: #db3c29;
@@ -11,10 +10,10 @@ header a:hover{
   text-decoration: none;
   color: #45bcf2;
 }
-.title-1 ul li{
+.nav-x{
   line-height: 50px;
 }
-.title-1 ul li a{
+.nav-x a{
   width: 120px;
   text-align: center;
 }
@@ -25,45 +24,38 @@ header a:hover{
   padding:15px 0;
   background: #e8e8e8;
 }
-.main .content .page .page-header{
-  margin-top: 10px;
+.main .content .page{
+  margin: 15px 0px;
   background: #f1f1f1; 
   border: 1px solid #ccc;
 }
-.main .content .page .page-header h3{
+.main .content .page .page-title{
   font-weight: bolder;
 }
-.main .content .page .page-header a{
+/* .main .content .page a{
   margin-left: 1000px;
-}
-.main .picture-1 .row img{
+} */
+.main .picture-1 .row-show img{
   width: 290px;
   height:271px;
 }
-.main .picture-1 .row h4{
+.main .picture-1 .row-show1 h4{
   font-weight: bolder;
   color: #F86108;
 }
-.main .picture-1 .row p{
+.main .picture-1 .row-show1 p{
   font-size: 13px;
   font-weight: bolder;
 }
-.main .picture-1 .row small{
+.main .picture-1 .row-show1 small{
   color: #0b73bb;
 }
-.main .picture-1 .row .btn{
+.main .picture-1 .row-show1 .btn{
   margin-left: 100px;
 }
 .main .title-2 .back{
   background: #e8e8e8 !important;
 }
-.title-2 ul li{
-  line-height: 50px;
-}
-.title-2 ul li a{
-  width: 120px;
-  text-align: center;
-} 
 .sel{
   font-weight: bolder;
   color: #F7610C !important;
@@ -74,7 +66,7 @@ header a:hover{
 .main .picture-2 .distance{
   margin-top: 10px;
 }
-.main .picture-2 .row img{
+.main .picture-2 .row-show2 img{
   width: 262.5px;
   height: 290px;
 }
@@ -88,13 +80,6 @@ header a:hover{
   line-height: 30px;
   text-decoration: none;
 } 
-#footer{
-  background-color: #bbb;
-  border-top: 1px solid #ccc;
-  padding: 20px;
-  text-align: center;
-}
-
 .carousel-control.right,.carousel-control.left {
   background-image: none !important;
 }
@@ -105,4 +90,16 @@ header a:hover{
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
    margin-left: -80px !important;
 }
-
+.main .content .page .type .type-x{
+  width: 100px;
+}
+.picture .row-work p,.picture .row-work a{
+  text-align: center;
+  color: #000;
+}
+#footer{
+  background-color: #bbb;
+  border-top: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
