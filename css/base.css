@@ -1,0 +1,108 @@
+.block {display:block}
+
+header a{
+  text-decoration: none;
+  color: #db3c29;
+}
+header h1{
+  font-weight: bolder;
+}
+header a:hover{
+  text-decoration: none;
+  color: #45bcf2;
+}
+.title-1 ul li{
+  line-height: 50px;
+}
+.title-1 ul li a{
+  width: 120px;
+  text-align: center;
+}
+.navbar {
+  margin-bottom:0 !important;
+}
+.main {
+  padding:15px 0;
+  background: #e8e8e8;
+}
+.main .content .page .page-header{
+  margin-top: 10px;
+  background: #f1f1f1; 
+  border: 1px solid #ccc;
+}
+.main .content .page .page-header h3{
+  font-weight: bolder;
+}
+.main .content .page .page-header a{
+  margin-left: 1000px;
+}
+.main .picture-1 .row img{
+  width: 290px;
+  height:271px;
+}
+.main .picture-1 .row h4{
+  font-weight: bolder;
+  color: #F86108;
+}
+.main .picture-1 .row p{
+  font-size: 13px;
+  font-weight: bolder;
+}
+.main .picture-1 .row small{
+  color: #0b73bb;
+}
+.main .picture-1 .row .btn{
+  margin-left: 100px;
+}
+.main .title-2 .back{
+  background: #e8e8e8 !important;
+}
+.title-2 ul li{
+  line-height: 50px;
+}
+.title-2 ul li a{
+  width: 120px;
+  text-align: center;
+} 
+.sel{
+  font-weight: bolder;
+  color: #F7610C !important;
+}
+.main .picture-2{
+  margin-top: 15px;
+}
+.main .picture-2 .distance{
+  margin-top: 10px;
+}
+.main .picture-2 .row img{
+  width: 262.5px;
+  height: 290px;
+}
+.main .picture-2 .work-title{
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: block;
+  text-align: center;
+  width: 262.5px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+} 
+#footer{
+  background-color: #bbb;
+  border-top: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-control.right,.carousel-control.left {
+  background-image: none !important;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+  font-size: 80px !important;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+   margin-left: -80px !important;
+}
+
