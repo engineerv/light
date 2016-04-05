@@ -93,7 +93,7 @@ header a:hover{
   font-size: 80px !important;
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
-   margin-left: -80px !important;
+   margin-left: -70px !important;
 }
 .main .content .page .type .type-x{
   width: 100px;
@@ -114,7 +114,65 @@ header a:hover{
 .top .left img{
   width: 400px;
   height: 420px;
-
+}
+.top .left h3{
+  margin-left:10px;
+  font-weight: bolder;
+}
+.top .price{
+  margin: 20px 10px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 2px;
+  background-color: #fff7ed;
+}
+.top .price small{
+  color: black;
+}
+.top .price p{
+  margin-left:  10px;
+  font-size: 20px;
+  color: #f60;
+  font-weight: bolder;
+}
+.top .buy{
+  width: 200px;
+  height: 50px;
+}
+.top h4{
+  color: #ff8a00;
+}
+.top span{
+  color: #ff8a00;
+}
+.middle,.bottom-1,.bottom-2{
+  margin-top: 30px;
+  border: 1px solid #ccc;
+}
+.case-left{
+  margin: 15px 20px; 
+}
+.middle .row-case img{
+  width: 260px;
+  height: 290px;
+}
+.middle .row-case .case-title{
+  margin-top: 10px;
+  color: black;
+  font-weight: bolder;
+}
+.bottom-1 .server,.bottom-2 .evaluate{
+  margin: 15px 20px; 
+}
+.bottom-2 .evaluate a{
+  color: black;
+  font-size: 16px;
+}
+#record th{
+   text-align: center;
+}
+.content{
+  min-height: 744px;
 }
 #footer{
   background-color: #bbb;
